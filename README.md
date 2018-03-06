@@ -1,3 +1,5 @@
+The code in this repos was developed by Katie. Gerrit just moved it over from the original BitBucket space.
+
 This folder contains all the necessary scripts and config file to: 
 1. Extract PBP sequences from the Strep enriched contig files (based on specified reference sequences for different PBP genes, obtained from NCBI - see KL_Strep_pneumoniae_NCBI_random_reference_pbp_seqs.fasta, modify as required) and save sequences for each PBP in seperate files for each sample (e.g. in this case each sample will have 3 fasta files (if they all had matches), one for each of the 3 PBP genes in the reference fasta file. Extrction paramters, e.g. expect scores and min matched length can be modified in the config file. Coded in script: automation_script_v2.sh which need to be executed on UCT hex by running the .qsub file like: qsub submit_script.qsub (modify file paths in submit script as necessary).
 Output files:
